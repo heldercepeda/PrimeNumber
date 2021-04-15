@@ -1,1 +1,1 @@
-from file_prime import Prime
+from PrimeNumber.file_prime import Prime
