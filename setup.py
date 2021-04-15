@@ -9,8 +9,8 @@ with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
 
 VERSION = '1.0.0'
 DESCRIPTION = 'Working with prime numbers'
-LONG_DESCRIPTION = 'A package that allows developers to: check if a number is prime, generate prime numbers, decompose any number as the product ' \
-                   'of prime numbers'
+LONG_DESCRIPTION = 'A package that allows developers to: check if a number is prime, generate prime numbers, decompose any whole number ' \
+                   ' as the product of prime numbers'
 
 setup(
     name="PrimeNumber",

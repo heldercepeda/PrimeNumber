@@ -1,2 +1,5 @@
 /v_env_PN/
 .idea/
+/build/
+/dist/
+/PrimeNumber.egg-info/

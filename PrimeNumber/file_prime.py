@@ -10,7 +10,7 @@ def pre_check(n: int):
 
 class Prime:
     def __init__(self):
-        self.prime_numbers = []
+        self.list_prime_numbers = []
 
     def is_prime(self, n: int):
         pre_check(n)
@@ -32,12 +32,12 @@ class Prime:
                 num += 1
 
         prime = 2
-        self.prime_numbers.append(prime)
+        self.list_prime_numbers.append(prime)
         aux_gen = aux_infinite_seq()
         while True:
             next_ = next(aux_gen)
             control = True
-            for i in self.prime_numbers:
+            for i in self.list_prime_numbers:
                 if i > sqrt(next_):
                     pass
                 else:
@@ -47,7 +47,7 @@ class Prime:
             if control:
                 yield prime
                 prime = next_
-                self.prime_numbers.append(prime)
+                self.list_prime_numbers.append(prime)
 
     def prime_factors(self, n: int):
         pre_check(n)
