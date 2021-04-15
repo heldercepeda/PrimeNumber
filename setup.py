@@ -7,10 +7,10 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-VERSION = '2.0.0'
+VERSION = '2.0.1'
 DESCRIPTION = 'Working with prime numbers'
 LONG_DESCRIPTION = 'A package that allows developers to: check if a number is prime, generate prime numbers, decompose any whole number ' \
-                   ' as the product of prime numbers'
+                   ' as the product of prime numbers. Visit https://github.com/heldercepeda/PrimeNumber for more details'
 
 setup(
     name="PrimeNumber",
@@ -24,7 +24,7 @@ setup(
     install_requires=[],
     keywords=['python', 'prime', 'prime number', 'prime numbers', 'number', 'numbers'],
     classifiers=[
-        "Development Status :: 1 - Planning",
+        "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
         "Programming Language :: Python :: 3"
     ]
